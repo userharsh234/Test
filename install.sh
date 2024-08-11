@@ -3,7 +3,7 @@ cat <<EOL > .devcontainer/devcontainer.json
 {
     "name": "My Codespace",
     "image": "mcr.microsoft.com/vscode/devcontainers/python:3.8",
-    "postStartCommand": "python3 /workspaces/bgmi/m.py",
+    "postStartCommand": "python3 /workspaces/Test/d.py",
     "customizations": {
         "vscode": {
             "settings": {
